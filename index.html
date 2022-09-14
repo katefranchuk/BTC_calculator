@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== CDN LINK FOR ICONS ===============-->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>A Bitcoin Converter App</title>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <div class="wrapper">
+		<header>Bitcoin Converter <i class="fab fa-bitcoin"></i></header>
+		<form action="#">
+			<div class="price">
+				<p>What is Bitcoin price today?</p>
+				<input class="price__input input" type="number">
+			</div>
+			<div class="amount">
+				<p>How much $ do you have?</p>
+				<input class="amount__input input" type="number">
+			</div>
+			<div class="result"></div>
+			<button>Calculate</button>
+		</form>
+	 </div>
+
+    <!--=============== JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

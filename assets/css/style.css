@@ -1,0 +1,82 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+	 font-family: 'Poppins', sans-serif;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*=============== MAIN ===============*/
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: #675afe;
+}
+.wrapper {
+	width: 400px;
+	padding: 30px;
+	border-radius: 7px;
+	background: #ffffff;
+}
+.wrapper header {
+	font-size: 28px;
+	font-weight: 500;
+	text-align: center;
+}
+.wrapper form {
+	margin: 40px 0 20px;
+}
+form :where(input, select, button) {
+	width: 100%;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+form p {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+form input {
+	height: 50px;
+	border: 1px solid #999999;
+	padding: 0 15px;
+	font-size: 17px;
+}
+form input:focus {
+	padding: 0 14px;
+	border: 2px solid #675afe;
+}
+.amount {
+	margin-top: 15px;
+}
+form .result {
+	font-size: 17px;
+	margin: 20px 0 30px;
+}
+form button {
+	font-size: 17px;
+	cursor: pointer;
+	height: 52px;
+	color: #ffffff;
+	background: #675afe;
+	transition: background .3s ease-in-out;
+}
+form button:active {
+	background: #4f42e0;
+}
+.color-red {
+	color: red;
+ }
